@@ -1,8 +1,8 @@
 <template>
   <div
-    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 cursor-pointer">
+    class="max-w-sm  border border-b-gray-300 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 cursor-pointer">
     <a href="#">
-      <img class="rounded-t-lg" :src="src" :alt="description" />
+      <img class="" :src="src" :alt="description" />
     </a>
     <div class="p-5">
       <a href="#">

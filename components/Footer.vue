@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white dark:bg-gray-900 bg-gray-900 text-white">
+  <footer class="bg-white dark:bg-gray-900 bg-gray-900 text-white" id="contact">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
       <div class="sm:flex sm:items-center sm:justify-between">
         <a
@@ -19,17 +19,13 @@
         <ul
           class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-300 sm:mb-0 dark:text-gray-400"
         >
-          <li>
-            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+          <li class="flex gap-x-1 items-center">
+            <IconsFacebook />
+            <a href="https://www.facebook.com/keramos237?mibextid=YMEMSu" target="_blank" class="hover:underline me-4 md:me-6">keramos237</a>
           </li>
-          <li>
-            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-          </li>
-          <li>
-            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-          </li>
-          <li>
-            <a href="#" class="hover:underline">Contact</a>
+          <li class="flex gap-x-1 items-center">
+            <IconsWhatsapp />
+            <a href="https://wa.me/693819398" class="hover:underline me-4 md:me-6">693819398</a>
           </li>
         </ul>
       </div>
