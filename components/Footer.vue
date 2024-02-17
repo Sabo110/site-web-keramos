@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white dark:bg-gray-900 bg-gray-900 text-white" id="contact">
+  <footer class="dark:bg-gray-900 bg-gray-900 text-white" id="contact">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
       <div class="sm:flex sm:items-center sm:justify-between">
         <a
@@ -25,7 +25,7 @@
           </li>
           <li class="flex gap-x-1 items-center">
             <IconsWhatsapp />
-            <a href="https://wa.me/693819398" class="hover:underline me-4 md:me-6">693819398</a>
+            <a href="https://wa.me/693819398" target="_blank" class="hover:underline me-4 md:me-6">693819398</a>
           </li>
         </ul>
       </div>
