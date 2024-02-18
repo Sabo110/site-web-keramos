@@ -1,20 +1,20 @@
 <template>
   <IndexFirstSection />
-  <div class="min-h-screen flex flex-col justify-center items-center gap-y-10  px-4 xl:px-0 bg-gray-100" id="services">
+  <div class="min-h-screen flex flex-col justify-center items-center gap-y-10  px-4 xl:px-0 bg-[#F3F4F6]" id="services">
     <h1 class="text-2xl md:text-3xl text-center">Nos Services de Construction & Vente de Matériaux - <span>Kéramos</span></h1>
     <div class="grid md:grid-cols-3 md:gap-x-4 md:gap-y-0 xl:gap-x-6 gap-y-6 ">
         <IndexCardWithImage v-for="(service, index) in services" :key="index" :titre="service.titre" :description="service.description" :src="service.image" />
     </div>
-    <h1 class=" text-2xl md:text-3xl text-center py-4">Pourquoi Nous Choisir ? Découvrez Nos Avantages - <span>Kéramos</span></h1>
+    <h1 class="text-2xl md:text-3xl text-center py-4">Pourquoi Nous Choisir ? Découvrez Nos Avantages - <span>Kéramos</span></h1>
     <div class="grid md:grid-cols-3 md:gap-x-4 md:gap-y-0 xl:gap-x-6 gap-y-6 ">
         <IndexCard :titre="atouts[0].titre" :description="atouts[0].description"> <IconsCash /> </IndexCard>
         <IndexCard :titre="atouts[1].titre" :description="atouts[1].description"> <IconsEtoile /> </IndexCard>
         <IndexCard :titre="atouts[2].titre" :description="atouts[2].description"> <IconsTime /> </IndexCard>
     </div>
   </div> 
-  <div class="min-h-screen flex flex-col justify-center items-center gap-y-10 bg-gray-100 pt-16 px-4">
+  <div class="min-h-screen flex flex-col justify-center items-center gap-y-10 bg-[#F3F4F6] pt-16 px-4">
     <h1 class="text-2xl md:text-3xl text-center">Témoignages Clients : La Satisfaction de Nos Clients - <span>Kéramos</span></h1>
-    <div class="grid mb-8  rounded-lg  dark:border-gray-700 md:mb-12 md:grid-cols-3 bg-gray-100 dark:bg-gray-800 gap-8">
+    <div class="grid mb-8  rounded-lg  dark:border-gray-700 md:mb-12 md:grid-cols-3 dark:bg-gray-800 gap-8">
         <IndexCard2 v-for="(object, index) in textes" :key="index" :url="object.url" :texte="object.texte" :titre="object.titre" alt="image"> </IndexCard2>
     </div>
   </div>

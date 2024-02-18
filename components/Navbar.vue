@@ -1,5 +1,5 @@
 <template>
-  <nav class="border-gray-200 dark:bg-gray-900 bg-gray-100 fixed top-0 left-0 right-0">
+  <nav class="border-b border-[#E5E7EB] dark:bg-gray-900 bg-[#F3F4F6] fixed top-0 left-0 right-0 shadow">
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
     >
@@ -43,7 +43,7 @@
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="font-medium  flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-700 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-gray-100 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          class="font-medium  flex flex-col p-4 md:p-0 mt-4 border rounded-lg bg-[#1F2937] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-[#F3F4F6] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
         >
           <li>
             <a

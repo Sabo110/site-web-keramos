@@ -1,13 +1,13 @@
 <template>
-  <section class=" dark:bg-gray-900 min-h-screen flex flex-col justify-center items-center bg-gray-100">
+  <section class="dark:bg-gray-900 min-h-screen flex flex-col justify-center items-center bg-[#F3F4F6]">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
       <h1
-        class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-5xl dark:text-white"
+        class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-[#111827] md:text-3xl lg:text-5xl dark:text-white"
       >
        KERAMOS : Votre Partenaire de Confiance dans la Construction et la Fourniture de Matériaux de Qualité
       </h1>
       <p
-        class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400"
+        class="mb-8 text-lg font-normal text-[#111827] lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400"
       >
         Chez Keramos, nous sommes déterminés à vous fournir des solutions de construction complètes et des matériaux de qualité supérieure. Avec notre expertise et notre engagement envers l'excellence.
       </p>
@@ -16,7 +16,7 @@
       >
         <a
           href="#services"
-          class="transition ease-in-out delay-100 hover:scale-110 inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-gray-900 hover:bg-orange-900 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+          class="transition ease-in-out delay-100 md:hover:scale-110 inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-[#FFFFFF] rounded-lg bg-[#111827] md:hover:bg-[#1E429F] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
         >
           En savoir plus
           <svg
